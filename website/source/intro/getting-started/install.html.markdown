@@ -32,7 +32,7 @@ Example for Linux/Mac - Type the following into your terminal:
 >`PATH=/usr/local/terraform/bin:/home/your-user-name/terraform:$PATH`
 
 Example for Windows - Type the following into Powershell:
->`set PATH=%PATH%;C:\terraform`
+>`$env:Path += ";C:\terraform"`
 
 
 ## Verifying the Installation
